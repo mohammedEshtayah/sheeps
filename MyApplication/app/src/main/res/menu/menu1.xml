@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Add Delete Update" android:id="@+id/ADU"/>
+
+    <item android:title="Update History " android:id="@+id/Drugs"/>
+    <item android:title="Specific search Mothers" android:id="@+id/State"/>
+    <item android:title="test Sheep" android:id="@+id/test"/>
+    <item android:title="Lambs" android:id="@+id/Sons"/>
+
+    <item android:title="Notes" android:id="@+id/notes"/>
+
+</menu>

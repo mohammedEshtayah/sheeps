@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ADU">
+
+    <EditText
+        android:id="@+id/noMother"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginLeft="61dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginRight="62dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="  no mother" />
+
+    <EditText
+        android:id="@+id/changeno"
+        android:layout_width="152dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/noMother2"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="316dp"
+        android:layout_toEndOf="@+id/noMother2"
+        android:layout_toRightOf="@+id/noMother2"
+        android:background="@drawable/input"
+        android:inputType="textPersonName"
+        android:hint="  changeno" />
+
+    <EditText
+        android:id="@+id/noMother2"
+        android:layout_width="152dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/noMother"
+        android:layout_alignStart="@+id/noMother"
+        android:layout_alignLeft="@+id/noMother"
+        android:layout_marginStart="-28dp"
+        android:layout_marginLeft="-28dp"
+        android:layout_marginTop="209dp"
+
+        android:background="@drawable/input"
+        android:inputType="textPersonName"
+        android:hint="  no mother" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:textColor="#FFFFFFFF"
+        android:layout_below="@+id/noMother"
+        android:layout_alignStart="@+id/noMother"
+        android:layout_alignLeft="@+id/noMother"
+        android:layout_marginStart="-6dp"
+        android:layout_marginLeft="-6dp"
+        android:layout_marginTop="47dp"
+        android:text="add" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/add"
+        android:layout_marginStart="76dp"
+        android:background="@drawable/button"
+        android:textColor="#FFFFFFFF"
+
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/add"
+        android:layout_toRightOf="@+id/add"
+        android:text="delete" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/noMother2"
+        android:layout_marginStart="-44dp"
+        android:background="@drawable/button"
+        android:textColor="#FFFFFFFF"
+        android:layout_marginTop="69dp"
+        android:layout_toEndOf="@+id/noMother2"
+        android:layout_toRightOf="@+id/noMother2"
+        android:text="update" />
+</RelativeLayout>

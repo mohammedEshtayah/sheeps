@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_margin="8dp"
+        card_view:cardCornerRadius="20dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idmother"
+                android:layout_width="119dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:textSize="60dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/dateBirth"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="19dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@+id/idmother"
+                android:layout_toRightOf="@+id/idmother" />
+
+            <TextView
+                android:id="@+id/sherbet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vaccination"
+                android:layout_alignStart="@+id/dateBirth"
+                android:layout_alignLeft="@+id/dateBirth"
+                android:layout_alignEnd="@+id/dateBirth"
+                android:layout_alignRight="@+id/dateBirth"
+
+
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:id="@+id/Intestinal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sherbet"
+                android:layout_alignStart="@+id/sherbet"
+                android:layout_alignLeft="@+id/sherbet"
+                android:layout_alignEnd="@+id/dateBirth"
+                android:layout_alignRight="@+id/dateBirth"
+                android:layout_marginTop="20dp"
+
+
+                />
+
+            <TextView
+                android:id="@+id/ivomac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Intestinal"
+                android:layout_alignStart="@+id/Intestinal"
+                android:layout_alignLeft="@+id/Intestinal"
+                android:layout_alignEnd="@+id/dateBirth"
+                android:layout_alignRight="@+id/dateBirth"
+
+                android:layout_marginTop="20dp"
+
+                android:text="أفوميك" />
+
+            <TextView
+                android:id="@+id/dateBirthh"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/dateBirth"
+                android:layout_toEndOf="@+id/dateBirth"
+                android:layout_toRightOf="@+id/dateBirth"
+                android:text="تاريخ الميلاد" />
+
+            <TextView
+                android:id="@+id/sherbett"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/sherbet"
+                android:layout_toEndOf="@+id/sherbet"
+                android:layout_toRightOf="@+id/sherbet"
+                android:text="شربات" />
+
+            <TextView
+                android:id="@+id/Intestinall"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/Intestinal"
+
+                android:layout_toEndOf="@+id/Intestinal"
+                android:layout_toRightOf="@+id/Intestinal"
+                android:text="معوي" />
+
+            <TextView
+                android:id="@+id/ivomacc"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/ivomac"
+
+                android:layout_toEndOf="@+id/ivomac"
+                android:layout_toRightOf="@+id/ivomac"
+                android:text="أيفوميك" />
+
+            <TextView
+                android:id="@+id/Etswing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dateBirth"
+                android:layout_alignStart="@+id/dateBirth"
+                android:layout_alignLeft="@+id/dateBirth"
+
+                android:layout_marginTop="20dp"
+
+
+                android:layout_toStartOf="@+id/dateBirthh"
+                android:layout_toLeftOf="@+id/dateBirthh" />
+
+            <TextView
+                android:id="@+id/Etswingg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/Etswing"
+
+                android:layout_alignEnd="@+id/dateBirthh"
+                android:layout_alignRight="@+id/dateBirthh"
+
+                android:layout_toEndOf="@+id/Etswing"
+                android:layout_toRightOf="@+id/Etswing"
+                android:text="أسفنج" />
+
+            <TextView
+                android:id="@+id/vaccination"
+                android:layout_width="101dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Etswing"
+                android:layout_alignStart="@+id/Etswing"
+                android:layout_alignLeft="@+id/Etswing"
+
+                android:layout_marginTop="20dp"
+                android:layout_toStartOf="@+id/Etswingg"
+
+                android:layout_toLeftOf="@+id/Etswingg"
+                android:textDirection="anyRtl" />
+
+            <TextView
+                android:id="@+id/vaccinationn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/vaccination"
+                android:layout_alignEnd="@+id/Etswingg"
+
+
+                android:layout_alignRight="@+id/Etswingg"
+
+                android:layout_toEndOf="@+id/vaccination"
+                android:layout_toRightOf="@+id/vaccination"
+                android:text="تلقيح" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
